@@ -5,10 +5,11 @@ body {
 
 /* Set background picture */
 .bgBox {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;  
+    padding: 1rem 0;
 }
 
 /* Design input */
@@ -28,4 +29,17 @@ body {
 /* Highlight effect */
 html ::selection {
     background: rgb(182, 182, 182);
+}
+
+/* Design Links */
+.credit {
+    padding-top: 2rem;
+}
+.credit a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+}
+.credit a:hover {
+    color: rgb(45, 45, 126);
 }
