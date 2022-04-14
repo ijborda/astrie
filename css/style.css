@@ -24,3 +24,8 @@ body {
     width: 100%; 
     height: 100%
 }
+
+/* Highlight effect */
+html ::selection {
+    background: rgb(182, 182, 182);
+}
