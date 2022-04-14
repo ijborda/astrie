@@ -1,0 +1,26 @@
+/* Base styles */
+body {
+    color: white;
+}
+
+/* Set background picture */
+.bgBox {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+/* Design input */
+#input {
+    display: inline;
+    width: 200px;
+}
+
+/* Iframe design */
+#bgvid {
+    position: fixed; 
+    z-index: -99; 
+    width: 100%; 
+    height: 100%
+}
