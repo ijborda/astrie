@@ -47,6 +47,6 @@ function showAPOD() {
 // Show random APOD
 document.querySelector('#random').addEventListener('click', showRandomAPOD)
 function showRandomAPOD() {
-    document.querySelector('#input').valueAsDate = new Date(+(new Date()) - Math.floor(Math.random()*new Date() - (new Date('1995-06-15'))));
+    document.querySelector('#input').valueAsDate = new Date(+(new Date()) - Math.floor( Math.random() * (new Date() - new Date('1995-06-15')) ));
     showAPOD();
 }
