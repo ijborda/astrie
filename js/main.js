@@ -43,3 +43,10 @@ function showAPOD() {
             .catch(err => console.log(`Error: ${err}`))
     }
 }
+
+// Show random APOD
+document.querySelector('#random').addEventListener('click', showRandomAPOD)
+function showRandomAPOD() {
+    document.querySelector('#input').valueAsDate = new Date(+(new Date()) - Math.floor(Math.random()*new Date() - (new Date('1995-06-15'))));
+    showAPOD();
+}
