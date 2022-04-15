@@ -4,7 +4,7 @@
 // Load yesterday's APOD by default
 showTodayAPOD()
 function showTodayAPOD() {
-    document.querySelector('#input').valueAsDate = new Date() - 1;
+    document.querySelector('#input').valueAsDate = new Date(new Date() - 86400000);
     showAPOD();
 }
 
