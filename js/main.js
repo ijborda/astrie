@@ -1,10 +1,10 @@
 // Use strict
 "use strict";
 
-// Load today's APOD by default
+// Load yesterday's APOD by default
 showTodayAPOD()
 function showTodayAPOD() {
-    document.querySelector('#input').valueAsDate = new Date();
+    document.querySelector('#input').valueAsDate = new Date() - 1;
     showAPOD();
 }
 
