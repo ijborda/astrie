@@ -7,11 +7,11 @@ Link to project:[http://imarijoyborda.com/nasa-api/](http://imarijoyborda.com/na
 ![Screenshot of Site - 1](assets/readme/readme-1.png)
 
 ## How To Use
-Select a date and press `Submit`. NASA's APOD and it's description will be shown. APOD for the latest day is available within 24 hours (maximum, depending on timezone). 
+Select a date and press `Submit`. NASA's APOD on that day and it's description will be shown. APOD for the latest day is available within 24 hours (maximum, depending on timezone). 
 
 Users can also press `Random APOD` to generate APOD on a random date.
 
-By default, the latest available APOD is shown.
+By default, the latest available APOD is shown (or the day before, depending on timezone).
 
 Some APOD are in video format. In this case, videos are played automatically and in a loop without sounds.
 
