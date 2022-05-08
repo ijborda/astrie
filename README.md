@@ -2,6 +2,8 @@
 
 Use [Astrie](http://imarijoyborda.com/nasa-api/) to see and learn about NASA's beautiful APOD (Astronomy Picture of the Day) in any day. 
 
+My motivation: I'm a space fan. I love how wide and mysterious the universe is, and I'm always amazed by NASA'S APOD. I love viewing the APOD daily online and read about it. But the sites that supports APOD often are not minimalist, and looks dull. Takes away the exitement of space to be honest. There is also no on the go way to see the APOD on other dates quickly. So, I created this minimalist and good looking site to see the daily APOD in a beatiful way and to allow fast checking out of APOD on other dates.
+
 Link to project:[http://imarijoyborda.com/nasa-api/](http://imarijoyborda.com/nasa-api/). 
 
 ![Screenshot of Site - 1](assets/readme/readme-1.png)
