@@ -29,3 +29,7 @@ There are still lots that need to be improved in this web application. Some plan
 Contributions are also very welcome! Just issue a pull request.
 
 ## Thanks for checking it out!
+Check out my other projects:
+* [Codie | See your Codewars Stats at a Glance](https://github.com/ijborda/codie)
+* [Cookie | Look for Recipes](https://github.com/ijborda/cookie)
+* [COVID-19 Statistics | A COVID-19 Monitoring App](https://github.com/ijborda/covid19-statistics)
