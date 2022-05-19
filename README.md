@@ -1,4 +1,4 @@
-# Astrie 
+# Astrie | See NASA APOD Beautifully
 
 Use [Astrie](http://imarijoyborda.com/astrie/) to see and learn about NASA's beautiful APOD (Astronomy Picture of the Day) in any day. 
 
