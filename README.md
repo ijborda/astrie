@@ -18,7 +18,7 @@ By default, the latest available APOD is shown (or the day before, depending on 
 Some APOD are in video format. In this case, videos are played automatically and in a loop without sounds.
 
 ## How It's Made
-This uses [NASA API](https://api.nasa.gov). Tech used: HTML, CSS, Bootstrap, and JavaScript.
+This uses [NASA API](https://api.nasa.gov). Tech used: HTML, CSS, Bootstrap, and JavaScript. <a href="https://www.flaticon.com/free-icons/nasa" title="nasa icons">Nasa icons created by Pixel perfect - Flaticon</a>
 
 ## Future Improvements
 There are still lots that need to be improved in this web application. Some plans are:
