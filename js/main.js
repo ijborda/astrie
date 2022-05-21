@@ -22,6 +22,7 @@ function showAPOD() {
         fetch(url)
             .then(res => res.json())
             .then(data => {
+                console.log(data)
                 if (data.media_type === 'video') {
                     // Remove image
                     document.querySelector('#bg').style.background = ''
@@ -33,7 +34,7 @@ function showAPOD() {
                     // Remove video
                     document.querySelector('#bgvid').src = ''
                     // Show image with filter (darken)
-                    document.querySelector('#bg').style.background = `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${data.hdurl}) no-repeat center center`
+                    document.querySelector('#bg').style.background = `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${data.url}) no-repeat center center`
                     document.querySelector('#bg').style.backgroundSize = `cover`
                 } 
                 // Show title and explanation
